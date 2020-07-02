@@ -12,7 +12,8 @@
     function nprimos($nro1){
     
             $primer = true; 
-   
+   /*el unico problema que generaria seria con el uno que considerando lo dicho el 1 seria primo pero en los numero primos nose le consideran
+   i se inicia en 2 por que apartir del 2 son los nuemros primos*/
                 for ($i = 2; $i < $nro1; $i++) {
                      if ($nro1 % $i === 0) {
                             $primer = false;
